@@ -1,0 +1,26 @@
+{
+  "description" : "",
+  "name" : "Reeder",
+  "rules" : [
+    {
+      "action" : "allow",
+      "creationDate" : 1565830340.4378529,
+      "modificationDate" : 1565830340.4378529,
+      "owner" : "me",
+      "ports" : "80",
+      "process" : "\/Applications\/Reeder.app\/Contents\/MacOS\/Reeder",
+      "protocol" : "tcp",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1565830354.831367,
+      "modificationDate" : 1565830354.831367,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Reeder.app\/Contents\/MacOS\/Reeder",
+      "protocol" : "tcp",
+      "remote" : "any"
+    }
+  ]
+}

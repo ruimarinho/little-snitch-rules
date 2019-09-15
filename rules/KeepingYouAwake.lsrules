@@ -1,0 +1,16 @@
+{
+  "description" : "",
+  "name" : "KeepingYouAwake",
+  "rules" : [
+    {
+      "action" : "allow",
+      "creationDate" : 1565823612.3507819,
+      "modificationDate" : 1565823612.3507819,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/KeepingYouAwake.app\/Contents\/MacOS\/KeepingYouAwake",
+      "protocol" : "tcp",
+      "remote-hosts" : "newmarcel.github.io"
+    }
+  ]
+}

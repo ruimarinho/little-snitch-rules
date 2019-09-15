@@ -1,0 +1,26 @@
+{
+  "description" : "",
+  "name" : "Messages",
+  "rules" : [
+    {
+      "action" : "allow",
+      "creationDate" : 1541198059.3845592,
+      "modificationDate" : 1541198059.3845592,
+      "owner" : "me",
+      "ports" : "80",
+      "process" : "\/Applications\/Messages.app\/Contents\/MacOS\/Messages",
+      "protocol" : "tcp",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1562457815.5614119,
+      "modificationDate" : 1562457815.5614119,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Messages.app\/Contents\/MacOS\/Messages",
+      "protocol" : "tcp",
+      "remote" : "any"
+    }
+  ]
+}

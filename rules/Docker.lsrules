@@ -1,0 +1,16 @@
+{
+  "description" : "",
+  "name" : "Docker",
+  "rules" : [
+    {
+      "action" : "allow",
+      "creationDate" : 1565830021.21123,
+      "modificationDate" : 1565830021.21123,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Docker.app\/Contents\/MacOS\/Docker",
+      "protocol" : "tcp",
+      "remote-hosts" : "download.docker.com"
+    }
+  ]
+}

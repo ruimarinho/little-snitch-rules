@@ -1,0 +1,16 @@
+{
+  "description" : "",
+  "name" : "IINA",
+  "rules" : [
+    {
+      "action" : "allow",
+      "creationDate" : 1565830136.5490479,
+      "modificationDate" : 1565830136.5490479,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/IINA.app\/Contents\/MacOS\/IINA",
+      "protocol" : "tcp",
+      "remote-hosts" : "www.iina.io"
+    }
+  ]
+}

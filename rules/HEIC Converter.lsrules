@@ -1,0 +1,16 @@
+{
+  "description" : "",
+  "name" : "HEIC Converter",
+  "rules" : [
+    {
+      "action" : "allow",
+      "creationDate" : 1565830074.808533,
+      "modificationDate" : 1565830074.808533,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/HEIC Converter.app\/Contents\/MacOS\/HEIC Converter",
+      "protocol" : "tcp",
+      "remote-hosts" : "in.appcenter.ms"
+    }
+  ]
+}

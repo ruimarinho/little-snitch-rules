@@ -1,0 +1,36 @@
+{
+  "description" : "",
+  "name" : "Safari",
+  "rules" : [
+    {
+      "action" : "allow",
+      "creationDate" : 1565831281.6080341,
+      "modificationDate" : 1565831281.6080341,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/System\/Library\/PrivateFrameworks\/SafariSafeBrowsing.framework\/Versions\/A\/com.apple.Safari.SafeBrowsing.Service",
+      "protocol" : "tcp",
+      "remote-hosts" : "safebrowsing.googleapis.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1565830432.7346501,
+      "modificationDate" : 1565830432.7346501,
+      "owner" : "me",
+      "ports" : "80",
+      "process" : "\/Applications\/Safari.app\/Contents\/MacOS\/Safari",
+      "protocol" : "tcp",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1540159022.1301351,
+      "modificationDate" : 1540159022.1301351,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Safari.app\/Contents\/MacOS\/Safari",
+      "protocol" : "tcp",
+      "remote" : "any"
+    }
+  ]
+}

@@ -1,0 +1,343 @@
+{
+  "description" : "",
+  "name" : "Spotify",
+  "rules" : [
+    {
+      "action" : "deny",
+      "creationDate" : 1566234521.444489,
+      "direction" : "incoming",
+      "modificationDate" : 1566234521.444489,
+      "owner" : "me",
+      "process" : "\/Applications\/Spotify.app\/Contents\/MacOS\/Spotify",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1565823751.269495,
+      "modificationDate" : 1565823751.269495,
+      "owner" : "me",
+      "ports" : "80",
+      "process" : "\/Applications\/Spotify.app\/Contents\/MacOS\/Spotify",
+      "protocol" : "tcp",
+      "remote-hosts" : "apresolve.spotify.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1565823794.3011069,
+      "modificationDate" : 1565823794.3011069,
+      "owner" : "me",
+      "ports" : "80",
+      "process" : "\/Applications\/Spotify.app\/Contents\/MacOS\/Spotify",
+      "protocol" : "tcp",
+      "remote-hosts" : "i.scdn.co"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1566339008.327002,
+      "modificationDate" : 1566339008.327002,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Spotify.app\/Contents\/MacOS\/Spotify",
+      "protocol" : "tcp",
+      "remote-hosts" : "audio-sp-fra2.pscdn.co",
+      "via" : "\/Applications\/Spotify.app\/Contents\/Frameworks\/Spotify Helper.app\/Contents\/MacOS\/Spotify Helper"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1565823806.095587,
+      "modificationDate" : 1565823806.095587,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Spotify.app\/Contents\/MacOS\/Spotify",
+      "protocol" : "tcp",
+      "remote-hosts" : "audio-sp-lhr.pscdn.co",
+      "via" : "\/Applications\/Spotify.app\/Contents\/Frameworks\/Spotify Helper.app\/Contents\/MacOS\/Spotify Helper"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1565823798.18734,
+      "modificationDate" : 1565823798.18734,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Spotify.app\/Contents\/MacOS\/Spotify",
+      "protocol" : "tcp",
+      "remote-hosts" : "audio4-fa.scdn.co",
+      "via" : "\/Applications\/Spotify.app\/Contents\/Frameworks\/Spotify Helper.app\/Contents\/MacOS\/Spotify Helper"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1568472903.0715661,
+      "modificationDate" : 1568472903.0715661,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Spotify.app\/Contents\/MacOS\/Spotify",
+      "protocol" : "tcp",
+      "remote-hosts" : "charts-images.scdn.co",
+      "via" : "\/Applications\/Spotify.app\/Contents\/Frameworks\/Spotify Helper.app\/Contents\/MacOS\/Spotify Helper"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1565823773.702462,
+      "modificationDate" : 1565823773.702462,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Spotify.app\/Contents\/MacOS\/Spotify",
+      "protocol" : "tcp",
+      "remote-hosts" : "dailymix-images.scdn.co",
+      "via" : "\/Applications\/Spotify.app\/Contents\/Frameworks\/Spotify Helper.app\/Contents\/MacOS\/Spotify Helper"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1565823788.3351998,
+      "modificationDate" : 1565823788.3351998,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Spotify.app\/Contents\/MacOS\/Spotify",
+      "protocol" : "tcp",
+      "remote-hosts" : "heads4-ak-spotify-com.akamaized.net",
+      "via" : "\/Applications\/Spotify.app\/Contents\/Frameworks\/Spotify Helper.app\/Contents\/MacOS\/Spotify Helper"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1565823782.4315381,
+      "modificationDate" : 1565823782.4315381,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Spotify.app\/Contents\/MacOS\/Spotify",
+      "protocol" : "tcp",
+      "remote-hosts" : "i.scdn.co",
+      "via" : "\/Applications\/Spotify.app\/Contents\/Frameworks\/Spotify Helper.app\/Contents\/MacOS\/Spotify Helper"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1565823776.7580628,
+      "modificationDate" : 1565823776.7580628,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Spotify.app\/Contents\/MacOS\/Spotify",
+      "protocol" : "tcp",
+      "remote-hosts" : "lineup-images.scdn.co",
+      "via" : "\/Applications\/Spotify.app\/Contents\/Frameworks\/Spotify Helper.app\/Contents\/MacOS\/Spotify Helper"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1567030434.8396649,
+      "modificationDate" : 1567030434.8396649,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Spotify.app\/Contents\/MacOS\/Spotify",
+      "protocol" : "tcp",
+      "remote-hosts" : "merch-img.scdn.co",
+      "via" : "\/Applications\/Spotify.app\/Contents\/Frameworks\/Spotify Helper.app\/Contents\/MacOS\/Spotify Helper"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1568496165.6894259,
+      "modificationDate" : 1568496165.6894259,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Spotify.app\/Contents\/MacOS\/Spotify",
+      "protocol" : "tcp",
+      "remote-hosts" : "mosaic.scdn.co",
+      "via" : "\/Applications\/Spotify.app\/Contents\/Frameworks\/Spotify Helper.app\/Contents\/MacOS\/Spotify Helper"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1568496181.4243078,
+      "modificationDate" : 1568496181.4243078,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Spotify.app\/Contents\/MacOS\/Spotify",
+      "protocol" : "tcp",
+      "remote-hosts" : "o.scdn.co",
+      "via" : "\/Applications\/Spotify.app\/Contents\/Frameworks\/Spotify Helper.app\/Contents\/MacOS\/Spotify Helper"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1565823770.1957951,
+      "modificationDate" : 1565823770.1957951,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Spotify.app\/Contents\/MacOS\/Spotify",
+      "protocol" : "tcp",
+      "remote-hosts" : "pl.scdn.co",
+      "via" : "\/Applications\/Spotify.app\/Contents\/Frameworks\/Spotify Helper.app\/Contents\/MacOS\/Spotify Helper"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1568582630.988137,
+      "modificationDate" : 1568582630.988137,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Spotify.app\/Contents\/MacOS\/Spotify",
+      "protocol" : "tcp",
+      "remote-hosts" : "platform-lookaside.fbsbx.com",
+      "via" : "\/Applications\/Spotify.app\/Contents\/Frameworks\/Spotify Helper.app\/Contents\/MacOS\/Spotify Helper"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1565823757.2921572,
+      "modificationDate" : 1565823757.2921572,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Spotify.app\/Contents\/MacOS\/Spotify",
+      "protocol" : "tcp",
+      "remote-hosts" : "profile-images.scdn.co",
+      "via" : "\/Applications\/Spotify.app\/Contents\/Frameworks\/Spotify Helper.app\/Contents\/MacOS\/Spotify Helper"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1566301884.6632419,
+      "modificationDate" : 1566301884.6632419,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Spotify.app\/Contents\/MacOS\/Spotify",
+      "protocol" : "tcp",
+      "remote-hosts" : "r2---sn-2vgu0b5auxaxjvh-v2vl.gvt1.com",
+      "via" : "\/Applications\/Spotify.app\/Contents\/Frameworks\/Spotify Helper.app\/Contents\/MacOS\/Spotify Helper"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1566301889.9867039,
+      "modificationDate" : 1566301889.9867039,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Spotify.app\/Contents\/MacOS\/Spotify",
+      "protocol" : "tcp",
+      "remote-hosts" : "r4---sn-2vgu0b5auxaxjvh-v2vl.gvt1.com",
+      "via" : "\/Applications\/Spotify.app\/Contents\/Frameworks\/Spotify Helper.app\/Contents\/MacOS\/Spotify Helper"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1566269549.507236,
+      "modificationDate" : 1566269549.507236,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Spotify.app\/Contents\/MacOS\/Spotify",
+      "protocol" : "tcp",
+      "remote-hosts" : "redirector.gvt1.com",
+      "via" : "\/Applications\/Spotify.app\/Contents\/Frameworks\/Spotify Helper.app\/Contents\/MacOS\/Spotify Helper"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1567171944.7153959,
+      "modificationDate" : 1567171944.7153959,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Spotify.app\/Contents\/MacOS\/Spotify",
+      "protocol" : "tcp",
+      "remote-hosts" : "scontent.xx.fbcdn.net",
+      "via" : "\/Applications\/Spotify.app\/Contents\/Frameworks\/Spotify Helper.app\/Contents\/MacOS\/Spotify Helper"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1565823779.4915419,
+      "modificationDate" : 1565823779.4915419,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Spotify.app\/Contents\/MacOS\/Spotify",
+      "protocol" : "tcp",
+      "remote-hosts" : "seeded-session-images.scdn.co",
+      "via" : "\/Applications\/Spotify.app\/Contents\/Frameworks\/Spotify Helper.app\/Contents\/MacOS\/Spotify Helper"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1568496197.6962109,
+      "modificationDate" : 1568496197.6962109,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Spotify.app\/Contents\/MacOS\/Spotify",
+      "protocol" : "tcp",
+      "remote-hosts" : "t.scdn.co",
+      "via" : "\/Applications\/Spotify.app\/Contents\/Frameworks\/Spotify Helper.app\/Contents\/MacOS\/Spotify Helper"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1568479023.758003,
+      "modificationDate" : 1568479023.758003,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Spotify.app\/Contents\/MacOS\/Spotify",
+      "protocol" : "tcp",
+      "remote-hosts" : "thisis-images.scdn.co",
+      "via" : "\/Applications\/Spotify.app\/Contents\/Frameworks\/Spotify Helper.app\/Contents\/MacOS\/Spotify Helper"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1566230845.6267462,
+      "modificationDate" : 1566230845.6267462,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Spotify.app\/Contents\/MacOS\/Spotify",
+      "protocol" : "tcp",
+      "remote-hosts" : "upgrade.scdn.co",
+      "via" : "\/Applications\/Spotify.app\/Contents\/Frameworks\/Spotify Helper.app\/Contents\/MacOS\/Spotify Helper"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1565823733.064625,
+      "modificationDate" : 1565823733.064625,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Spotify.app\/Contents\/MacOS\/Spotify",
+      "protocol" : "tcp",
+      "remote-hosts" : "dealer.spotify.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1566313611.736455,
+      "modificationDate" : 1566313611.736455,
+      "owner" : "me",
+      "ports" : "80",
+      "process" : "\/Applications\/Spotify.app\/Contents\/MacOS\/Spotify",
+      "protocol" : "tcp",
+      "remote-domains" : "ap.spotify.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1565823737.068182,
+      "modificationDate" : 1565823737.068182,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Spotify.app\/Contents\/MacOS\/Spotify",
+      "protocol" : "tcp",
+      "remote-domains" : "ap.spotify.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1565823766.974664,
+      "modificationDate" : 1565823766.974664,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Spotify.app\/Contents\/MacOS\/Spotify",
+      "protocol" : "tcp",
+      "remote-domains" : "wg.spotify.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1565823760.6475348,
+      "modificationDate" : 1565823760.6475348,
+      "owner" : "me",
+      "ports" : "4070",
+      "process" : "\/Applications\/Spotify.app\/Contents\/MacOS\/Spotify",
+      "protocol" : "tcp",
+      "remote-domains" : "ap.spotify.com"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1548121817.770973,
+      "modificationDate" : 1548121817.770973,
+      "owner" : "me",
+      "process" : "\/Applications\/Spotify.app\/Contents\/MacOS\/Spotify",
+      "remote-domains" : "sentry.io"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1542967883.326797,
+      "modificationDate" : 1542967883.326797,
+      "owner" : "me",
+      "process" : "\/Applications\/Spotify.app\/Contents\/Frameworks\/Spotify Helper.app\/Contents\/MacOS\/Spotify Helper",
+      "remote-hosts" : "crashdump.spotify.com"
+    }
+  ]
+}

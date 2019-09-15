@@ -1,0 +1,70 @@
+{
+  "description" : "",
+  "name" : "Atom",
+  "rules" : [
+    {
+      "action" : "allow",
+      "creationDate" : 1565830968.761987,
+      "modificationDate" : 1565830968.761987,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Atom.app\/Contents\/MacOS\/Atom",
+      "protocol" : "tcp",
+      "remote-hosts" : "api.github.com",
+      "via" : "\/Applications\/Atom.app\/Contents\/Frameworks\/Atom Helper.app\/Contents\/MacOS\/Atom Helper"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1565831004.8518028,
+      "modificationDate" : 1565831004.8518028,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Atom.app\/Contents\/MacOS\/Atom",
+      "protocol" : "tcp",
+      "remote-hosts" : "codeload.github.com",
+      "via" : "\/Applications\/Atom.app\/Contents\/Resources\/app\/apm\/bin\/node"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1565830996.394094,
+      "modificationDate" : 1565830996.394094,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Atom.app\/Contents\/MacOS\/Atom",
+      "protocol" : "tcp",
+      "remote-hosts" : "registry.npmjs.org",
+      "via" : "\/Applications\/Atom.app\/Contents\/Resources\/app\/apm\/bin\/node"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1565831000.2814078,
+      "modificationDate" : 1565831000.2814078,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Atom.app\/Contents\/MacOS\/Atom",
+      "protocol" : "tcp",
+      "remote-hosts" : "www.atom.io",
+      "via" : "\/Applications\/Atom.app\/Contents\/Resources\/app\/apm\/bin\/node"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1565828814.050607,
+      "modificationDate" : 1565828814.050607,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Atom.app\/Contents\/MacOS\/Atom",
+      "protocol" : "tcp",
+      "remote-hosts" : "atom-installer.github.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1565830963.9970829,
+      "modificationDate" : 1565830963.9970829,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Atom.app\/Contents\/MacOS\/Atom",
+      "protocol" : "tcp",
+      "remote-hosts" : "atom.io"
+    }
+  ]
+}

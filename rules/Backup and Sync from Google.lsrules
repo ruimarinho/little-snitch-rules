@@ -1,0 +1,56 @@
+{
+  "description" : "",
+  "name" : "Backup and Sync from Google",
+  "rules" : [
+    {
+      "action" : "allow",
+      "creationDate" : 1568479143.0602078,
+      "modificationDate" : 1568479143.0602078,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Backup and Sync.app\/Contents\/MacOS\/Backup and Sync",
+      "protocol" : "tcp",
+      "remote-hosts" : "accounts.google.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1568479235.068831,
+      "modificationDate" : 1568479235.068831,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Backup and Sync.app\/Contents\/MacOS\/Backup and Sync",
+      "protocol" : "tcp",
+      "remote-hosts" : "drive.google.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1568479150.773885,
+      "modificationDate" : 1568479150.773885,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Backup and Sync.app\/Contents\/MacOS\/Backup and Sync",
+      "protocol" : "tcp",
+      "remote-hosts" : "lh3.googleusercontent.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1568479147.6339211,
+      "modificationDate" : 1568479147.6339211,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Backup and Sync.app\/Contents\/MacOS\/Backup and Sync",
+      "protocol" : "tcp",
+      "remote-hosts" : "www.googleapis.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1568479155.3913741,
+      "modificationDate" : 1568479155.3913741,
+      "owner" : "me",
+      "ports" : "5222",
+      "process" : "\/Applications\/Backup and Sync.app\/Contents\/MacOS\/Backup and Sync",
+      "protocol" : "tcp",
+      "remote-hosts" : "talk.google.com"
+    }
+  ]
+}

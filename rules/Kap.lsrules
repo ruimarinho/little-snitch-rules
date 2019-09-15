@@ -1,0 +1,26 @@
+{
+  "description" : "",
+  "name" : "Kap",
+  "rules" : [
+    {
+      "action" : "allow",
+      "creationDate" : 1565823659.6128759,
+      "modificationDate" : 1565823659.6128759,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Kap.app\/Contents\/MacOS\/Kap",
+      "protocol" : "tcp",
+      "remote-hosts" : "kap-updates.now.sh"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1565915983.3148699,
+      "modificationDate" : 1565915983.3148699,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Kap.app\/Contents\/MacOS\/Kap",
+      "protocol" : "tcp",
+      "remote-hosts" : "registry.npmjs.org"
+    }
+  ]
+}

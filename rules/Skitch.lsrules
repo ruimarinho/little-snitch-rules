@@ -1,0 +1,46 @@
+{
+  "description" : "",
+  "name" : "Skitch",
+  "rules" : [
+    {
+      "action" : "deny",
+      "creationDate" : 1565830402.387301,
+      "modificationDate" : 1565830402.387301,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Skitch.app\/Contents\/MacOS\/Skitch",
+      "protocol" : "tcp",
+      "remote-hosts" : "metrics.evernote.com"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1565830407.624404,
+      "modificationDate" : 1565830407.624404,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Skitch.app\/Contents\/MacOS\/Skitch",
+      "protocol" : "tcp",
+      "remote-hosts" : "www.evernote.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1565830418.214004,
+      "modificationDate" : 1565830418.214004,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Skitch.app\/Contents\/MacOS\/Skitch",
+      "protocol" : "tcp",
+      "remote-hosts" : "evernote.s3.amazonaws.com"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1565830411.3154321,
+      "modificationDate" : 1565830411.3154321,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Skitch.app\/Contents\/MacOS\/Skitch",
+      "protocol" : "tcp",
+      "remote-domains" : "yinxiang.com"
+    }
+  ]
+}

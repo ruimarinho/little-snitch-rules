@@ -1,0 +1,26 @@
+{
+  "description" : "",
+  "name" : "Viscosity",
+  "rules" : [
+    {
+      "action" : "allow",
+      "creationDate" : 1566605350.296205,
+      "modificationDate" : 1566605350.296205,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Viscosity.app\/Contents\/MacOS\/Viscosity",
+      "protocol" : "tcp",
+      "remote-hosts" : "secure.sparklabs.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1565830613.7632399,
+      "modificationDate" : 1565830613.7632399,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Viscosity.app\/Contents\/MacOS\/Viscosity",
+      "protocol" : "tcp",
+      "remote-hosts" : "swupdate.sparklabs.com"
+    }
+  ]
+}

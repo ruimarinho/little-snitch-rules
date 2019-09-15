@@ -1,0 +1,16 @@
+{
+  "description" : "",
+  "name" : "Spotlight",
+  "rules" : [
+    {
+      "action" : "allow",
+      "creationDate" : 1566227508.885406,
+      "modificationDate" : 1566227508.885406,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/System\/Library\/CoreServices\/Spotlight.app\/Contents\/MacOS\/Spotlight",
+      "protocol" : "tcp",
+      "remote-hosts" : "apple-finance.query.yahoo.com"
+    }
+  ]
+}

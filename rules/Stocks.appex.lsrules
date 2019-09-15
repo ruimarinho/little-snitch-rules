@@ -1,0 +1,16 @@
+{
+  "description" : "",
+  "name" : "Stocks.appex",
+  "rules" : [
+    {
+      "action" : "allow",
+      "creationDate" : 1565830700.783232,
+      "modificationDate" : 1565830700.783232,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/System\/Library\/CoreServices\/Stocks.app\/Contents\/PlugIns\/com.apple.ncplugin.stocks.appex\/Contents\/MacOS\/com.apple.ncplugin.stocks",
+      "protocol" : "tcp",
+      "remote-hosts" : "apple-finance.query.yahoo.com"
+    }
+  ]
+}

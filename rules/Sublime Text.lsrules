@@ -1,0 +1,26 @@
+{
+  "description" : "",
+  "name" : "Sublime Text",
+  "rules" : [
+    {
+      "action" : "allow",
+      "creationDate" : 1553518164.2811341,
+      "modificationDate" : 1553518164.2811341,
+      "owner" : "me",
+      "ports" : "80",
+      "process" : "\/Applications\/Sublime Text.app\/Contents\/MacOS\/Sublime Text",
+      "protocol" : "tcp",
+      "remote-domains" : "sublimetext.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1540159578.1943688,
+      "modificationDate" : 1540159578.1943688,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Sublime Text.app\/Contents\/MacOS\/Sublime Text",
+      "protocol" : "tcp",
+      "remote-domains" : "sublimetext.com"
+    }
+  ]
+}

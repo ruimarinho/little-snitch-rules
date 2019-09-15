@@ -1,0 +1,48 @@
+{
+  "description" : "",
+  "name" : "Google Chrome",
+  "rules" : [
+    {
+      "action" : "allow",
+      "creationDate" : 1565830174.0840909,
+      "modificationDate" : 1565830174.0840909,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
+      "protocol" : "tcp",
+      "remote" : "any",
+      "via" : "\/Applications\/Google Chrome.app\/Contents\/Frameworks\/Google Chrome Framework.framework\/Versions\/76.0.3809.100\/Helpers\/Google Chrome Helper.app\/Contents\/MacOS\/Google Chrome Helper"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1565830169.622905,
+      "modificationDate" : 1565830169.622905,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
+      "protocol" : "udp",
+      "remote" : "any",
+      "via" : "\/Applications\/Google Chrome.app\/Contents\/Frameworks\/Google Chrome Framework.framework\/Versions\/76.0.3809.100\/Helpers\/Google Chrome Helper.app\/Contents\/MacOS\/Google Chrome Helper"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1565874470.8307672,
+      "modificationDate" : 1565874470.8307672,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Users\/ruimarinho\/Library\/Google\/GoogleSoftwareUpdate\/GoogleSoftwareUpdate.bundle\/Contents\/Resources\/GoogleSoftwareUpdateAgent.app\/Contents\/MacOS\/GoogleSoftwareUpdateAgent",
+      "protocol" : "tcp",
+      "remote-hosts" : "tools.google.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1565830181.1052399,
+      "modificationDate" : 1565830181.1052399,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Users\/ruimarinho\/Library\/Google\/GoogleSoftwareUpdate\/GoogleSoftwareUpdate.bundle\/Contents\/MacOS\/ksfetch",
+      "protocol" : "tcp",
+      "remote-hosts" : "tools.google.com"
+    }
+  ]
+}

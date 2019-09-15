@@ -1,0 +1,16 @@
+{
+  "description" : "",
+  "name" : "coconutBattery",
+  "rules" : [
+    {
+      "action" : "allow",
+      "creationDate" : 1565829969.8704162,
+      "modificationDate" : 1565829969.8704162,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/coconutBattery.app\/Contents\/MacOS\/coconutBattery",
+      "protocol" : "tcp",
+      "remote-domains" : "coconut-flavour.com"
+    }
+  ]
+}

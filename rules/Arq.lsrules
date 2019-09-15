@@ -1,0 +1,16 @@
+{
+  "description" : "",
+  "name" : "Arq",
+  "rules" : [
+    {
+      "action" : "allow",
+      "creationDate" : 1565830934.5079122,
+      "modificationDate" : 1565830934.5079122,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Arq.app\/Contents\/Library\/LoginItems\/Arq Agent.app\/Contents\/MacOS\/Arq Agent",
+      "protocol" : "tcp",
+      "remote-hosts" : "www.arqbackup.com"
+    }
+  ]
+}

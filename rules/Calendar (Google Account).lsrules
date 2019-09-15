@@ -1,0 +1,16 @@
+{
+  "description" : "",
+  "name" : "Calendar (Google Account)",
+  "rules" : [
+    {
+      "action" : "allow",
+      "creationDate" : 1565829925.044524,
+      "modificationDate" : 1565829925.044524,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/System\/Library\/PrivateFrameworks\/CalendarAgent.framework\/Executables\/CalendarAgent",
+      "protocol" : "tcp",
+      "remote-hosts" : "apidata.googleusercontent.com"
+    }
+  ]
+}

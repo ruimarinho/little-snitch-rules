@@ -1,0 +1,298 @@
+{
+  "description" : "",
+  "name" : "Slack",
+  "rules" : [
+    {
+      "action" : "deny",
+      "creationDate" : 1566300084.513402,
+      "modificationDate" : 1566300084.513402,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Slack.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/crashpad_handler",
+      "protocol" : "tcp",
+      "remote-hosts" : "slack.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1565832456.5941339,
+      "modificationDate" : 1565889820.9012041,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Slack.app\/Contents\/MacOS\/Slack",
+      "protocol" : "tcp",
+      "remote-addresses" : "13.224.58.154"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1565884069.6930079,
+      "modificationDate" : 1565889816.6957541,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Slack.app\/Contents\/MacOS\/Slack",
+      "protocol" : "tcp",
+      "remote-addresses" : "143.204.225.159"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1566087956.1437612,
+      "modificationDate" : 1566089001.350625,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Slack.app\/Contents\/MacOS\/Slack",
+      "protocol" : "tcp",
+      "remote-addresses" : "151.101.0.106"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1565874577.096524,
+      "modificationDate" : 1565874577.096524,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Slack.app\/Contents\/MacOS\/Slack",
+      "protocol" : "tcp",
+      "remote-addresses" : "151.101.132.106"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1566164882.4530721,
+      "modificationDate" : 1566164882.4530721,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Slack.app\/Contents\/MacOS\/Slack",
+      "protocol" : "tcp",
+      "remote-addresses" : "151.101.192.106"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1566226538.6990108,
+      "modificationDate" : 1566226538.6990108,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Slack.app\/Contents\/MacOS\/Slack",
+      "protocol" : "tcp",
+      "remote-addresses" : "151.101.200.106"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1566226587.0908031,
+      "modificationDate" : 1566226587.0908031,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Slack.app\/Contents\/MacOS\/Slack",
+      "protocol" : "tcp",
+      "remote-addresses" : "151.101.248.106"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1565834068.2874041,
+      "modificationDate" : 1565834068.2874041,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Slack.app\/Contents\/MacOS\/Slack",
+      "protocol" : "tcp",
+      "remote-hosts" : "a.slack-edge.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1565830475.8188338,
+      "modificationDate" : 1565830475.8188338,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Slack.app\/Contents\/MacOS\/Slack",
+      "protocol" : "tcp",
+      "remote-hosts" : "app.slack.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1565874436.9678049,
+      "modificationDate" : 1565874436.9678049,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Slack.app\/Contents\/MacOS\/Slack",
+      "protocol" : "tcp",
+      "remote-hosts" : "b.slack-edge.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1565972229.351352,
+      "modificationDate" : 1565972229.351352,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Slack.app\/Contents\/MacOS\/Slack",
+      "protocol" : "tcp",
+      "remote-hosts" : "ca.slack-edge.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1565830486.45438,
+      "modificationDate" : 1565830486.45438,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Slack.app\/Contents\/MacOS\/Slack",
+      "protocol" : "tcp",
+      "remote-hosts" : "edgeapi.slack.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1565983001.2587471,
+      "modificationDate" : 1565983001.2587471,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Slack.app\/Contents\/MacOS\/Slack",
+      "protocol" : "tcp",
+      "remote-hosts" : "files.slack.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1567699431.204958,
+      "modificationDate" : 1567699431.204958,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Slack.app\/Contents\/MacOS\/Slack",
+      "protocol" : "tcp",
+      "remote-hosts" : "slack-calls-orca-iad-qrso.slack-core.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1566311658.903846,
+      "modificationDate" : 1566311658.903846,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Slack.app\/Contents\/MacOS\/Slack",
+      "protocol" : "tcp",
+      "remote-hosts" : "slack-files2.s3-us-west-2.amazonaws.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1565830482.529479,
+      "modificationDate" : 1565830482.529479,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Slack.app\/Contents\/MacOS\/Slack",
+      "protocol" : "tcp",
+      "remote-hosts" : "slack-imgs.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1565830469.944571,
+      "modificationDate" : 1565830469.944571,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Slack.app\/Contents\/MacOS\/Slack",
+      "protocol" : "tcp",
+      "remote-hosts" : "slack.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1565830502.149133,
+      "modificationDate" : 1565830502.149133,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Slack.app\/Contents\/MacOS\/Slack",
+      "protocol" : "tcp",
+      "remote-hosts" : "slackb.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1567528798.4752378,
+      "modificationDate" : 1567528798.4752378,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Slack.app\/Contents\/MacOS\/Slack",
+      "protocol" : "tcp",
+      "remote-hosts" : "universal.slack-core.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1565830495.7539339,
+      "modificationDate" : 1565830495.7539339,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Slack.app\/Contents\/MacOS\/Slack",
+      "protocol" : "tcp",
+      "remote-hosts" : "wss-backup.slack.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1565830454.328563,
+      "modificationDate" : 1565830454.328563,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Slack.app\/Contents\/MacOS\/Slack",
+      "protocol" : "tcp",
+      "remote-hosts" : "wss-primary.slack.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1567528814.623245,
+      "modificationDate" : 1568589963.639791,
+      "owner" : "me",
+      "process" : "\/Applications\/Slack.app\/Contents\/MacOS\/Slack",
+      "protocol" : "tcp",
+      "remote-hosts" : "slack-calls-orca-dub-x9t6.slack-core.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1568307420.1365089,
+      "modificationDate" : 1568589957.18325,
+      "owner" : "me",
+      "process" : "\/Applications\/Slack.app\/Contents\/MacOS\/Slack",
+      "protocol" : "tcp",
+      "remote-hosts" : "slack-calls-orca-dub-xsvj.slack-core.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1567692576.6808782,
+      "modificationDate" : 1568589950.945636,
+      "owner" : "me",
+      "process" : "\/Applications\/Slack.app\/Contents\/MacOS\/Slack",
+      "protocol" : "tcp",
+      "remote-hosts" : "slack-calls-orca-dub-xzux.slack-core.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1566474119.099369,
+      "modificationDate" : 1568589944.9562922,
+      "owner" : "me",
+      "process" : "\/Applications\/Slack.app\/Contents\/MacOS\/Slack",
+      "protocol" : "tcp",
+      "remote-hosts" : "slack-calls-orca-lhr-es27.slack-core.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1567528811.8194308,
+      "modificationDate" : 1568589940.403991,
+      "owner" : "me",
+      "process" : "\/Applications\/Slack.app\/Contents\/MacOS\/Slack",
+      "protocol" : "udp",
+      "remote-hosts" : "slack-calls-orca-dub-x9t6.slack-core.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1568307416.256232,
+      "modificationDate" : 1568589917.6190438,
+      "owner" : "me",
+      "process" : "\/Applications\/Slack.app\/Contents\/MacOS\/Slack",
+      "protocol" : "udp",
+      "remote-hosts" : "slack-calls-orca-dub-xsvj.slack-core.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1567692856.2481079,
+      "modificationDate" : 1567692920.484489,
+      "owner" : "me",
+      "process" : "\/Applications\/Slack.app\/Contents\/MacOS\/Slack",
+      "protocol" : "udp",
+      "remote-hosts" : "slack-calls-orca-dub-xzux.slack-core.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1566474115.5702538,
+      "modificationDate" : 1568589911.8300519,
+      "owner" : "me",
+      "process" : "\/Applications\/Slack.app\/Contents\/MacOS\/Slack",
+      "protocol" : "udp",
+      "remote-hosts" : "slack-calls-orca-lhr-es27.slack-core.com"
+    }
+  ]
+}

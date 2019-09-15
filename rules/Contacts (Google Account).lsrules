@@ -1,0 +1,26 @@
+{
+  "description" : "",
+  "name" : "Contacts (Google Account)",
+  "rules" : [
+    {
+      "action" : "allow",
+      "creationDate" : 1565833706.805161,
+      "modificationDate" : 1565833706.805161,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/System\/Library\/Frameworks\/Accounts.framework\/Versions\/A\/Support\/accountsd",
+      "protocol" : "tcp",
+      "remote-hosts" : "oauth2.googleapis.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1565832837.8894081,
+      "modificationDate" : 1565832837.8894081,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/System\/Library\/Frameworks\/AddressBook.framework\/Versions\/A\/Helpers\/AddressBookSourceSync.app\/Contents\/MacOS\/AddressBookSourceSync",
+      "protocol" : "tcp",
+      "remote-hosts" : "www.googleapis.com"
+    }
+  ]
+}

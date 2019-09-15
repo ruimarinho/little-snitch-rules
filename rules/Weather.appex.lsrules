@@ -1,0 +1,16 @@
+{
+  "description" : "",
+  "name" : "Weather.appex",
+  "rules" : [
+    {
+      "action" : "allow",
+      "creationDate" : 1565830707.921382,
+      "modificationDate" : 1565830707.921382,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/System\/Library\/CoreServices\/Weather.app\/Contents\/PlugIns\/com.apple.ncplugin.weather.appex\/Contents\/MacOS\/com.apple.ncplugin.weather",
+      "protocol" : "tcp",
+      "remote-hosts" : "api.weather.com"
+    }
+  ]
+}

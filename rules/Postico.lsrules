@@ -1,0 +1,16 @@
+{
+  "description" : "",
+  "name" : "Postico",
+  "rules" : [
+    {
+      "action" : "allow",
+      "creationDate" : 1566486079.884666,
+      "modificationDate" : 1566486079.884666,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Postico.app\/Contents\/MacOS\/Postico",
+      "protocol" : "tcp",
+      "remote-hosts" : "eggerapps.at"
+    }
+  ]
+}

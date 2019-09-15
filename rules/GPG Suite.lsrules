@@ -1,0 +1,56 @@
+{
+  "description" : "",
+  "name" : "GPG Suite",
+  "rules" : [
+    {
+      "action" : "allow",
+      "creationDate" : 1566837635.952467,
+      "modificationDate" : 1566837635.952467,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/usr\/local\/MacGPG2\/bin\/dirmngr",
+      "protocol" : "tcp",
+      "remote-hosts" : "keys.openpgp.org"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1567179318.405159,
+      "modificationDate" : 1567179318.405159,
+      "owner" : "me",
+      "ports" : "11371",
+      "process" : "\/usr\/local\/MacGPG2\/bin\/dirmngr",
+      "protocol" : "tcp",
+      "remote-domains" : "ubuntu.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1566755415.927362,
+      "modificationDate" : 1566755415.927362,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/GPG Keychain.app\/Contents\/MacOS\/GPG Keychain",
+      "protocol" : "tcp",
+      "remote-hosts" : "keys.openpgp.org"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1565830050.267684,
+      "modificationDate" : 1565830050.267684,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Library\/Application Support\/GPGTools\/GPGSuite_Updater.app\/Contents\/MacOS\/GPGSuite_Updater",
+      "protocol" : "tcp",
+      "remote-hosts" : "gpgtools.org"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1566754956.7082779,
+      "modificationDate" : 1566754956.7082779,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Library\/Application Support\/GPGTools\/GPGSuite_Updater.app\/Contents\/MacOS\/GPGSuite_Updater",
+      "protocol" : "tcp",
+      "remote-hosts" : "releases.gpgtools.org"
+    }
+  ]
+}

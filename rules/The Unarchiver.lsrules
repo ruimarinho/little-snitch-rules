@@ -1,0 +1,16 @@
+{
+  "description" : "",
+  "name" : "The Unarchiver",
+  "rules" : [
+    {
+      "action" : "deny",
+      "creationDate" : 1540159609.278209,
+      "modificationDate" : 1540159609.278209,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/The Unarchiver.app\/Contents\/MacOS\/The Unarchiver",
+      "protocol" : "tcp",
+      "remote-domains" : "devmate.com"
+    }
+  ]
+}
