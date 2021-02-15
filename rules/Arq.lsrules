@@ -11,6 +11,26 @@
       "process" : "\/Applications\/Arq.app\/Contents\/Library\/LoginItems\/Arq Agent.app\/Contents\/MacOS\/Arq Agent",
       "protocol" : "tcp",
       "remote-hosts" : "www.arqbackup.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1570524644.2304811,
+      "modificationDate" : 1570524644.2304811,
+      "owner" : "system",
+      "ports" : "443",
+      "process" : "\/Applications\/Arq.app\/Contents\/Library\/LoginItems\/Arq Agent.app\/Contents\/Resources\/arq_updater",
+      "protocol" : "tcp",
+      "remote-hosts" : "www.arqbackup.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1591531647.819627,
+      "modificationDate" : 1591531647.819627,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Arq.app\/Contents\/Library\/LoginItems\/Arq Agent.app\/Contents\/Resources\/arq_updater",
+      "protocol" : "tcp",
+      "remote-hosts" : "www.arqbackup.com"
     }
   ]
 }

@@ -21,6 +21,36 @@
       "process" : "\/Applications\/Messages.app\/Contents\/MacOS\/Messages",
       "protocol" : "tcp",
       "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1575592278.070544,
+      "modificationDate" : 1575592278.070544,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/System\/Library\/PrivateFrameworks\/IMTransferServices.framework\/IMTransferAgent.app\/Contents\/MacOS\/IMTransferAgent",
+      "protocol" : "tcp",
+      "remote-hosts" : "eu-irl-00001.s3.dualstack.eu-west-1.amazonaws.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1574991367.019047,
+      "modificationDate" : 1574991367.019047,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/System\/Library\/PrivateFrameworks\/IMTransferServices.framework\/IMTransferAgent.app\/Contents\/MacOS\/IMTransferAgent",
+      "protocol" : "tcp",
+      "remote-hosts" : "gcs-eu-00002.content-storage-download.googleapis.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1575046192.273488,
+      "modificationDate" : 1575046192.273488,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/System\/Library\/PrivateFrameworks\/IMTransferServices.framework\/IMTransferAgent.app\/Contents\/MacOS\/IMTransferAgent",
+      "protocol" : "tcp",
+      "remote-hosts" : "gcs-eu-00002.content-storage-upload.googleapis.com"
     }
   ]
 }

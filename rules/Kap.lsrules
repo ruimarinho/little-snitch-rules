@@ -3,10 +3,50 @@
   "name" : "Kap",
   "rules" : [
     {
-      "action" : "allow",
-      "creationDate" : 1565823659.6128759,
-      "modificationDate" : 1565823659.6128759,
+      "action" : "deny",
+      "creationDate" : 1613400333.760977,
+      "modificationDate" : 1613400333.760977,
       "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Kap.app\/Contents\/MacOS\/Kap",
+      "protocol" : "tcp",
+      "remote-hosts" : "ssl.google-analytics.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1613400332.030108,
+      "modificationDate" : 1613400332.030108,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Kap.app\/Contents\/MacOS\/Kap",
+      "protocol" : "tcp",
+      "remote-hosts" : "api.npms.io"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1613400321.2164512,
+      "modificationDate" : 1613400321.2164512,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Kap.app\/Contents\/MacOS\/Kap",
+      "protocol" : "tcp",
+      "remote-hosts" : "github-releases.githubusercontent.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1613400318.5456882,
+      "modificationDate" : 1613400318.5456882,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Kap.app\/Contents\/MacOS\/Kap",
+      "protocol" : "tcp",
+      "remote-hosts" : "github.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1568590459.712141,
+      "modificationDate" : 1568590459.712141,
+      "owner" : "any",
       "ports" : "443",
       "process" : "\/Applications\/Kap.app\/Contents\/MacOS\/Kap",
       "protocol" : "tcp",
@@ -14,9 +54,9 @@
     },
     {
       "action" : "allow",
-      "creationDate" : 1565915983.3148699,
-      "modificationDate" : 1565915983.3148699,
-      "owner" : "me",
+      "creationDate" : 1568590459.712141,
+      "modificationDate" : 1568590459.712141,
+      "owner" : "any",
       "ports" : "443",
       "process" : "\/Applications\/Kap.app\/Contents\/MacOS\/Kap",
       "protocol" : "tcp",

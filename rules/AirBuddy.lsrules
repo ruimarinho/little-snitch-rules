@@ -11,6 +11,16 @@
       "process" : "\/Applications\/AirBuddy.app\/Contents\/Library\/LoginItems\/AirBuddyHelper.app\/Contents\/MacOS\/AirBuddyHelper",
       "protocol" : "tcp",
       "remote-hosts" : "su.airbuddy.app"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1566001399.2325201,
+      "modificationDate" : 1566001399.2325201,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/AirBuddy.app\/Contents\/Library\/LoginItems\/AirBuddyHelper.app\/Contents\/MacOS\/AirBuddyHelper",
+      "protocol" : "tcp",
+      "remote-hosts" : "assets.airbuddy.app"
     }
   ]
 }

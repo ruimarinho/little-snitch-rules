@@ -3,14 +3,64 @@
   "name" : "Docker",
   "rules" : [
     {
-      "action" : "allow",
-      "creationDate" : 1565830021.21123,
-      "modificationDate" : 1565830021.21123,
+      "action" : "deny",
+      "creationDate" : 1611312551.98803,
+      "modificationDate" : 1611312551.98803,
       "owner" : "me",
       "ports" : "443",
       "process" : "\/Applications\/Docker.app\/Contents\/MacOS\/Docker",
       "protocol" : "tcp",
+      "remote-hosts" : "api.segment.io"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1590665371.2712541,
+      "modificationDate" : 1590665371.2712541,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Docker.app\/Contents\/MacOS\/Docker",
+      "protocol" : "tcp",
+      "remote-hosts" : "desktop.docker.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1587912659.2687089,
+      "modificationDate" : 1587912659.2687089,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Docker.app\/Contents\/MacOS\/Docker",
+      "protocol" : "tcp",
+      "remote-hosts" : "hub.docker.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1568590385.8308768,
+      "modificationDate" : 1568590385.8308768,
+      "owner" : "any",
+      "ports" : "443",
+      "process" : "\/Applications\/Docker.app\/Contents\/MacOS\/Docker",
+      "protocol" : "tcp",
       "remote-hosts" : "download.docker.com"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1611312563.213372,
+      "modificationDate" : 1611312563.213372,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Docker.app\/Contents\/MacOS\/Docker Desktop.app\/Contents\/MacOS\/Docker Desktop",
+      "protocol" : "tcp",
+      "remote-hosts" : "sessions.bugsnag.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1606004661.240531,
+      "modificationDate" : 1606004661.240531,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Docker.app\/Contents\/MacOS\/Docker Desktop.app\/Contents\/MacOS\/Docker Desktop",
+      "protocol" : "tcp",
+      "remote-hosts" : "hub.docker.com"
     }
   ]
 }

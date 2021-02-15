@@ -1,0 +1,36 @@
+{
+  "description" : "",
+  "name" : "iCloud",
+  "rules" : [
+    {
+      "action" : "allow",
+      "creationDate" : 1587949330.844974,
+      "modificationDate" : 1587949330.844974,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/System\/Library\/PrivateFrameworks\/CloudKitDaemon.framework\/Support\/cloudd",
+      "protocol" : "tcp",
+      "remote-hosts" : "eu-irl-00001.s3.dualstack.eu-west-1.amazonaws.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1587949333.6059031,
+      "modificationDate" : 1587949333.6059031,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/System\/Library\/PrivateFrameworks\/CloudKitDaemon.framework\/Support\/cloudd",
+      "protocol" : "tcp",
+      "remote-hosts" : "gcs-eu-00002.content-storage-download.googleapis.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1587949317.6680689,
+      "modificationDate" : 1587949317.6680689,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/System\/Library\/PrivateFrameworks\/CloudKitDaemon.framework\/Support\/cloudd",
+      "protocol" : "tcp",
+      "remote-hosts" : "gcs-eu-00002.content-storage-upload.googleapis.com"
+    }
+  ]
+}

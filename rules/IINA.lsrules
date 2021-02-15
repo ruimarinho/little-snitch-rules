@@ -4,9 +4,39 @@
   "rules" : [
     {
       "action" : "allow",
-      "creationDate" : 1565830136.5490479,
-      "modificationDate" : 1565830136.5490479,
+      "creationDate" : 1594941872.5624409,
+      "modificationDate" : 1594941872.5624409,
       "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/IINA.app\/Contents\/MacOS\/IINA",
+      "protocol" : "tcp",
+      "remote-hosts" : "dl-portal.iina.io"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1594941874.9342999,
+      "modificationDate" : 1594941874.9342999,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/IINA.app\/Contents\/MacOS\/IINA",
+      "protocol" : "tcp",
+      "remote-hosts" : "dl.iina.io"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1603476446.9078121,
+      "modificationDate" : 1603476446.9078121,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/IINA.app\/Contents\/MacOS\/IINA",
+      "protocol" : "tcp",
+      "remote-hosts" : "iina.io"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1568590444.6668792,
+      "modificationDate" : 1568590444.6668792,
+      "owner" : "any",
       "ports" : "443",
       "process" : "\/Applications\/IINA.app\/Contents\/MacOS\/IINA",
       "protocol" : "tcp",

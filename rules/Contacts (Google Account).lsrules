@@ -14,6 +14,16 @@
     },
     {
       "action" : "allow",
+      "creationDate" : 1574985247.427865,
+      "modificationDate" : 1574985247.427865,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/System\/Library\/Frameworks\/Accounts.framework\/Versions\/A\/Support\/accountsd",
+      "protocol" : "tcp",
+      "remote-hosts" : "www.googleapis.com"
+    },
+    {
+      "action" : "allow",
       "creationDate" : 1565832837.8894081,
       "modificationDate" : 1565832837.8894081,
       "owner" : "me",

@@ -26,16 +26,6 @@
     },
     {
       "action" : "allow",
-      "creationDate" : 1565874470.8307672,
-      "modificationDate" : 1565874470.8307672,
-      "owner" : "me",
-      "ports" : "443",
-      "process" : "\/Users\/ruimarinho\/Library\/Google\/GoogleSoftwareUpdate\/GoogleSoftwareUpdate.bundle\/Contents\/Resources\/GoogleSoftwareUpdateAgent.app\/Contents\/MacOS\/GoogleSoftwareUpdateAgent",
-      "protocol" : "tcp",
-      "remote-hosts" : "tools.google.com"
-    },
-    {
-      "action" : "allow",
       "creationDate" : 1565830181.1052399,
       "modificationDate" : 1565830181.1052399,
       "owner" : "me",
