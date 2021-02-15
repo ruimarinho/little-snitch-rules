@@ -1,0 +1,16 @@
+{
+  "description" : "",
+  "name" : "WhatsApp",
+  "rules" : [
+    {
+      "action" : "allow",
+      "creationDate" : 1578592761.471441,
+      "modificationDate" : 1578592761.471441,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/WhatsApp.app\/Contents\/MacOS\/WhatsApp",
+      "protocol" : "tcp",
+      "remote" : "any"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "description" : "",
+  "name" : "Turbo Boost Switcher Pro",
+  "rules" : [
+    {
+      "action" : "allow",
+      "creationDate" : 1606050646.2003479,
+      "modificationDate" : 1606050646.2003479,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Turbo Boost Switcher Pro.app\/Contents\/MacOS\/Turbo Boost Switcher Pro",
+      "protocol" : "tcp",
+      "remote-hosts" : "api.gumroad.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1606050361.895541,
+      "modificationDate" : 1606050361.895541,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Turbo Boost Switcher Pro.app\/Contents\/MacOS\/Turbo Boost Switcher Pro",
+      "protocol" : "tcp",
+      "remote-hosts" : "api.rugarciap.com"
+    }
+  ]
+}

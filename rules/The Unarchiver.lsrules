@@ -4,13 +4,43 @@
   "rules" : [
     {
       "action" : "deny",
-      "creationDate" : 1540159609.278209,
-      "modificationDate" : 1540159609.278209,
+      "creationDate" : 1613400168.8974562,
+      "modificationDate" : 1613400168.8974562,
       "owner" : "me",
       "ports" : "443",
       "process" : "\/Applications\/The Unarchiver.app\/Contents\/MacOS\/The Unarchiver",
       "protocol" : "tcp",
-      "remote-domains" : "devmate.com"
+      "remote-hosts" : "cdn.theunarchiver.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1613400096.3454161,
+      "modificationDate" : 1613400096.3454161,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/The Unarchiver.app\/Contents\/MacOS\/The Unarchiver",
+      "protocol" : "tcp",
+      "remote-hosts" : "dl.devmate.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1613400083.3233981,
+      "modificationDate" : 1613400083.3233981,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/The Unarchiver.app\/Contents\/MacOS\/The Unarchiver",
+      "protocol" : "tcp",
+      "remote-hosts" : "s3-us-west-2.amazonaws.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1613400080.7256498,
+      "modificationDate" : 1613400080.7256498,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/The Unarchiver.app\/Contents\/MacOS\/The Unarchiver",
+      "protocol" : "tcp",
+      "remote-hosts" : "updates.devmate.com"
     }
   ]
 }

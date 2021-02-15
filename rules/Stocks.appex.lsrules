@@ -4,13 +4,53 @@
   "rules" : [
     {
       "action" : "allow",
-      "creationDate" : 1565830700.783232,
-      "modificationDate" : 1565830700.783232,
+      "creationDate" : 1575417945.351629,
+      "modificationDate" : 1575417970.2474999,
       "owner" : "me",
       "ports" : "443",
-      "process" : "\/System\/Library\/CoreServices\/Stocks.app\/Contents\/PlugIns\/com.apple.ncplugin.stocks.appex\/Contents\/MacOS\/com.apple.ncplugin.stocks",
+      "process" : "\/System\/Applications\/Stocks.app\/Contents\/MacOS\/Stocks",
       "protocol" : "tcp",
       "remote-hosts" : "apple-finance.query.yahoo.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1575417942.232141,
+      "modificationDate" : 1575417942.232141,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Stocks.app\/Contents\/MacOS\/Stocks",
+      "protocol" : "tcp",
+      "remote-hosts" : "c.apple.news"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1606049444.7721338,
+      "modificationDate" : 1606049444.7721338,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Stocks.app\/Contents\/PlugIns\/StocksDetailIntents.appex\/Contents\/MacOS\/StocksDetailIntents",
+      "protocol" : "tcp",
+      "remote-hosts" : "apple-finance.query.yahoo.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1606050370.1866999,
+      "modificationDate" : 1606050370.1866999,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Stocks.app\/Contents\/PlugIns\/StocksWidget.appex\/Contents\/MacOS\/StocksWidget",
+      "protocol" : "tcp",
+      "remote-hosts" : "apple-finance.query.yahoo.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1606050366.426357,
+      "modificationDate" : 1606050366.426357,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Stocks.app\/Contents\/PlugIns\/StocksWidget.appex\/Contents\/MacOS\/StocksWidget",
+      "protocol" : "tcp",
+      "remote-hosts" : "c.apple.news"
     }
   ]
 }

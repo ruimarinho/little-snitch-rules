@@ -3,16 +3,6 @@
   "name" : "Slack",
   "rules" : [
     {
-      "action" : "deny",
-      "creationDate" : 1566300084.513402,
-      "modificationDate" : 1566300084.513402,
-      "owner" : "me",
-      "ports" : "443",
-      "process" : "\/Applications\/Slack.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/crashpad_handler",
-      "protocol" : "tcp",
-      "remote-hosts" : "slack.com"
-    },
-    {
       "action" : "allow",
       "creationDate" : 1565832456.5941339,
       "modificationDate" : 1565889820.9012041,

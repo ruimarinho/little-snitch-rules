@@ -4,35 +4,83 @@
   "rules" : [
     {
       "action" : "allow",
-      "creationDate" : 1565830174.0840909,
-      "modificationDate" : 1565830174.0840909,
+      "creationDate" : 1593612255.147691,
+      "modificationDate" : 1593612255.147691,
       "owner" : "me",
-      "ports" : "443",
-      "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
+      "ports" : "80",
+      "process" : "\/Library\/Google\/GoogleSoftwareUpdate\/GoogleSoftwareUpdate.bundle\/Contents\/Helpers\/GoogleSoftwareUpdateAgent.app\/Contents\/MacOS\/GoogleSoftwareUpdateAgent",
       "protocol" : "tcp",
-      "remote" : "any",
-      "via" : "\/Applications\/Google Chrome.app\/Contents\/Frameworks\/Google Chrome Framework.framework\/Versions\/76.0.3809.100\/Helpers\/Google Chrome Helper.app\/Contents\/MacOS\/Google Chrome Helper"
+      "remote-hosts" : "google.com"
     },
     {
       "action" : "allow",
-      "creationDate" : 1565830169.622905,
-      "modificationDate" : 1565830169.622905,
+      "creationDate" : 1593612246.589776,
+      "modificationDate" : 1593612246.589776,
       "owner" : "me",
-      "ports" : "443",
-      "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
-      "protocol" : "udp",
-      "remote" : "any",
-      "via" : "\/Applications\/Google Chrome.app\/Contents\/Frameworks\/Google Chrome Framework.framework\/Versions\/76.0.3809.100\/Helpers\/Google Chrome Helper.app\/Contents\/MacOS\/Google Chrome Helper"
+      "ports" : "80",
+      "process" : "\/Library\/Google\/GoogleSoftwareUpdate\/GoogleSoftwareUpdate.bundle\/Contents\/Helpers\/GoogleSoftwareUpdateAgent.app\/Contents\/MacOS\/GoogleSoftwareUpdateAgent",
+      "protocol" : "tcp",
+      "remote-hosts" : "redirector.gvt1.com"
     },
     {
       "action" : "allow",
-      "creationDate" : 1565830181.1052399,
-      "modificationDate" : 1565830181.1052399,
+      "creationDate" : 1593612248.237576,
+      "modificationDate" : 1593612248.237576,
       "owner" : "me",
       "ports" : "443",
-      "process" : "\/Users\/ruimarinho\/Library\/Google\/GoogleSoftwareUpdate\/GoogleSoftwareUpdate.bundle\/Contents\/MacOS\/ksfetch",
+      "process" : "\/Library\/Google\/GoogleSoftwareUpdate\/GoogleSoftwareUpdate.bundle\/Contents\/Helpers\/GoogleSoftwareUpdateAgent.app\/Contents\/MacOS\/GoogleSoftwareUpdateAgent",
       "protocol" : "tcp",
-      "remote-hosts" : "tools.google.com"
+      "remote-hosts" : "dl.google.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1593609938.898968,
+      "modificationDate" : 1593609938.898968,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Library\/Google\/GoogleSoftwareUpdate\/GoogleSoftwareUpdate.bundle\/Contents\/Helpers\/GoogleSoftwareUpdateAgent.app\/Contents\/MacOS\/GoogleSoftwareUpdateAgent",
+      "protocol" : "tcp",
+      "remote-hosts" : "google.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1593612251.093653,
+      "modificationDate" : 1593612251.093653,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Library\/Google\/GoogleSoftwareUpdate\/GoogleSoftwareUpdate.bundle\/Contents\/Helpers\/GoogleSoftwareUpdateAgent.app\/Contents\/MacOS\/GoogleSoftwareUpdateAgent",
+      "protocol" : "tcp",
+      "remote-hosts" : "r3---sn-2vgu0b5auxaxjvh-v2vz.gvt1.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1589061093.048419,
+      "modificationDate" : 1589061093.048419,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Library\/Google\/GoogleSoftwareUpdate\/GoogleSoftwareUpdate.bundle\/Contents\/Helpers\/GoogleSoftwareUpdateAgent.app\/Contents\/MacOS\/GoogleSoftwareUpdateAgent",
+      "protocol" : "tcp",
+      "remote-hosts" : "r8---sn-2vgu0b5auxaxjvh-v2vl.gvt1.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1589061008.5708351,
+      "modificationDate" : 1589061008.5708351,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Library\/Google\/GoogleSoftwareUpdate\/GoogleSoftwareUpdate.bundle\/Contents\/Helpers\/GoogleSoftwareUpdateAgent.app\/Contents\/MacOS\/GoogleSoftwareUpdateAgent",
+      "protocol" : "tcp",
+      "remote-hosts" : "redirector.gvt1.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1593612253.3683748,
+      "modificationDate" : 1593612253.3683748,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Library\/Google\/GoogleSoftwareUpdate\/GoogleSoftwareUpdate.bundle\/Contents\/Helpers\/GoogleSoftwareUpdateAgent.app\/Contents\/MacOS\/GoogleSoftwareUpdateAgent",
+      "protocol" : "tcp",
+      "remote-hosts" : "www.google.com"
     }
   ]
 }

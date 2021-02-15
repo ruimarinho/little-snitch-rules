@@ -1,0 +1,14 @@
+{
+  "description" : "",
+  "name" : "Find My Mac",
+  "rules" : [
+    {
+      "action" : "allow",
+      "creationDate" : 1613401302.90749,
+      "modificationDate" : 1613401302.90749,
+      "owner" : "system",
+      "process" : "\/usr\/libexec\/findmydeviced",
+      "remote-domains" : "icloud.com"
+    }
+  ]
+}

@@ -61,6 +61,16 @@
       "process" : "\/Applications\/Docker.app\/Contents\/MacOS\/Docker Desktop.app\/Contents\/MacOS\/Docker Desktop",
       "protocol" : "tcp",
       "remote-hosts" : "hub.docker.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1604502167.3259029,
+      "modificationDate" : 1604502167.3259029,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Docker.app\/Contents\/MacOS\/com.docker.backend",
+      "protocol" : "tcp",
+      "remote-hosts" : "hub.docker.com"
     }
   ]
 }
