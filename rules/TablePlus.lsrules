@@ -1,0 +1,56 @@
+{
+  "description" : "",
+  "name" : "TablePlus",
+  "rules" : [
+    {
+      "action" : "allow",
+      "creationDate" : 1587423451.0509939,
+      "modificationDate" : 1587423451.0509939,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/TablePlus.app\/Contents\/MacOS\/TablePlus",
+      "protocol" : "tcp",
+      "remote-hosts" : "api.tableplus.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1597520439.685427,
+      "modificationDate" : 1597520439.685427,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/TablePlus.app\/Contents\/MacOS\/TablePlus",
+      "protocol" : "tcp",
+      "remote-hosts" : "download.tableplus.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1613402611.6771259,
+      "modificationDate" : 1613402611.6771259,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/TablePlus.app\/Contents\/MacOS\/TablePlus",
+      "protocol" : "tcp",
+      "remote-hosts" : "in.appcenter.ms"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1590579568.786479,
+      "modificationDate" : 1590579568.786479,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/TablePlus.app\/Contents\/MacOS\/TablePlus",
+      "protocol" : "tcp",
+      "remote-hosts" : "s3.amazonaws.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1613402623.776787,
+      "modificationDate" : 1613402623.776787,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/TablePlus.app\/Contents\/MacOS\/TablePlus",
+      "protocol" : "tcp",
+      "remote-hosts" : "tableplus.com"
+    }
+  ]
+}
