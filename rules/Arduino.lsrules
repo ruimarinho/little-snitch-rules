@@ -1,0 +1,66 @@
+{
+  "description" : "",
+  "name" : "Arduino",
+  "rules" : [
+    {
+      "action" : "allow",
+      "creationDate" : 1581733586.953485,
+      "modificationDate" : 1581733586.953485,
+      "owner" : "me",
+      "ports" : "80",
+      "process" : "\/Applications\/Arduino.app\/Contents\/MacOS\/Arduino",
+      "protocol" : "tcp",
+      "remote-hosts" : "arduino.esp8266.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1593440995.9477181,
+      "modificationDate" : 1593440995.9477181,
+      "owner" : "me",
+      "ports" : "80",
+      "process" : "\/Applications\/Arduino.app\/Contents\/MacOS\/Arduino",
+      "protocol" : "tcp",
+      "remote-hosts" : "downloads.arduino.cc"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1581733507.197047,
+      "modificationDate" : 1581733507.197047,
+      "owner" : "me",
+      "ports" : "80",
+      "process" : "\/Applications\/Arduino.app\/Contents\/MacOS\/Arduino",
+      "protocol" : "tcp",
+      "remote-hosts" : "www.arduino.cc"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1581733505.629446,
+      "modificationDate" : 1581733505.629446,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Arduino.app\/Contents\/MacOS\/Arduino",
+      "protocol" : "tcp",
+      "remote-hosts" : "builder.arduino.cc"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1581733566.5737472,
+      "modificationDate" : 1581733566.5737472,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Arduino.app\/Contents\/MacOS\/Arduino",
+      "protocol" : "tcp",
+      "remote-hosts" : "downloads.arduino.cc"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1581733597.951952,
+      "modificationDate" : 1581733597.951952,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Arduino.app\/Contents\/MacOS\/Arduino",
+      "protocol" : "tcp",
+      "remote-hosts" : "github-production-release-asset-2e65be.s3.amazonaws.com"
+    }
+  ]
+}
