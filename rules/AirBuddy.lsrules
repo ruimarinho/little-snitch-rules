@@ -31,6 +31,16 @@
       "process" : "\/Applications\/AirBuddy.app\/Contents\/MacOS\/AirBuddy",
       "protocol" : "tcp",
       "remote-hosts" : "su.airbuddy.app"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1613401475.8219819,
+      "modificationDate" : 1613401475.8219819,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/AirBuddy.app\/Contents\/MacOS\/AirBuddy",
+      "protocol" : "tcp",
+      "remote-hosts" : "su.airbuddy.app"
     }
   ]
 }
