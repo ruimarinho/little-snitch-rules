@@ -4,31 +4,21 @@
   "rules" : [
     {
       "action" : "allow",
-      "creationDate" : 1565830934.5079122,
-      "modificationDate" : 1565830934.5079122,
-      "owner" : "me",
-      "ports" : "443",
-      "process" : "\/Applications\/Arq.app\/Contents\/Library\/LoginItems\/Arq Agent.app\/Contents\/MacOS\/Arq Agent",
-      "protocol" : "tcp",
-      "remote-hosts" : "www.arqbackup.com"
-    },
-    {
-      "action" : "allow",
-      "creationDate" : 1570524644.2304811,
-      "modificationDate" : 1570524644.2304811,
+      "creationDate" : 1613816647.4607182,
+      "modificationDate" : 1613816647.4607182,
       "owner" : "system",
       "ports" : "443",
-      "process" : "\/Applications\/Arq.app\/Contents\/Library\/LoginItems\/Arq Agent.app\/Contents\/Resources\/arq_updater",
+      "process" : "\/Applications\/Arq.app\/Contents\/Resources\/ArqAgent.app\/Contents\/MacOS\/ArqAgent",
       "protocol" : "tcp",
-      "remote-hosts" : "www.arqbackup.com"
+      "remote-hosts" : "cloud.arqbackup.com"
     },
     {
       "action" : "allow",
-      "creationDate" : 1591531647.819627,
-      "modificationDate" : 1591531647.819627,
-      "owner" : "me",
+      "creationDate" : 1613816675.900718,
+      "modificationDate" : 1613816675.900718,
+      "owner" : "system",
       "ports" : "443",
-      "process" : "\/Applications\/Arq.app\/Contents\/Library\/LoginItems\/Arq Agent.app\/Contents\/Resources\/arq_updater",
+      "process" : "\/Applications\/Arq.app\/Contents\/Resources\/ArqAgent.app\/Contents\/MacOS\/ArqAgent",
       "protocol" : "tcp",
       "remote-hosts" : "www.arqbackup.com"
     }
