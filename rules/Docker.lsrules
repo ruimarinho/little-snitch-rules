@@ -4,9 +4,29 @@
   "rules" : [
     {
       "action" : "deny",
-      "creationDate" : 1611312551.98803,
-      "modificationDate" : 1611312551.98803,
+      "creationDate" : 1613927698.8245549,
+      "modificationDate" : 1613927698.8245549,
       "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Docker.app\/Contents\/MacOS\/Docker",
+      "protocol" : "tcp",
+      "remote-hosts" : "api.wootric.com"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1613927697.8355319,
+      "modificationDate" : 1613927697.8355319,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Docker.app\/Contents\/MacOS\/Docker",
+      "protocol" : "tcp",
+      "remote-hosts" : "sessions.bugsnag.com"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1613401047.347579,
+      "modificationDate" : 1613401047.347579,
+      "owner" : "any",
       "ports" : "443",
       "process" : "\/Applications\/Docker.app\/Contents\/MacOS\/Docker",
       "protocol" : "tcp",
@@ -14,23 +34,13 @@
     },
     {
       "action" : "allow",
-      "creationDate" : 1590665371.2712541,
-      "modificationDate" : 1590665371.2712541,
-      "owner" : "me",
+      "creationDate" : 1613401047.347579,
+      "modificationDate" : 1613401047.347579,
+      "owner" : "any",
       "ports" : "443",
       "process" : "\/Applications\/Docker.app\/Contents\/MacOS\/Docker",
       "protocol" : "tcp",
       "remote-hosts" : "desktop.docker.com"
-    },
-    {
-      "action" : "allow",
-      "creationDate" : 1587912659.2687089,
-      "modificationDate" : 1587912659.2687089,
-      "owner" : "me",
-      "ports" : "443",
-      "process" : "\/Applications\/Docker.app\/Contents\/MacOS\/Docker",
-      "protocol" : "tcp",
-      "remote-hosts" : "hub.docker.com"
     },
     {
       "action" : "allow",
@@ -43,10 +53,20 @@
       "remote-hosts" : "download.docker.com"
     },
     {
+      "action" : "allow",
+      "creationDate" : 1613401047.347579,
+      "modificationDate" : 1613401047.347579,
+      "owner" : "any",
+      "ports" : "443",
+      "process" : "\/Applications\/Docker.app\/Contents\/MacOS\/Docker",
+      "protocol" : "tcp",
+      "remote-hosts" : "hub.docker.com"
+    },
+    {
       "action" : "deny",
-      "creationDate" : 1611312563.213372,
-      "modificationDate" : 1611312563.213372,
-      "owner" : "me",
+      "creationDate" : 1613401047.347579,
+      "modificationDate" : 1613401047.347579,
+      "owner" : "any",
       "ports" : "443",
       "process" : "\/Applications\/Docker.app\/Contents\/MacOS\/Docker Desktop.app\/Contents\/MacOS\/Docker Desktop",
       "protocol" : "tcp",
@@ -54,21 +74,11 @@
     },
     {
       "action" : "allow",
-      "creationDate" : 1606004661.240531,
-      "modificationDate" : 1606004661.240531,
-      "owner" : "me",
+      "creationDate" : 1613401047.347579,
+      "modificationDate" : 1613401047.347579,
+      "owner" : "any",
       "ports" : "443",
       "process" : "\/Applications\/Docker.app\/Contents\/MacOS\/Docker Desktop.app\/Contents\/MacOS\/Docker Desktop",
-      "protocol" : "tcp",
-      "remote-hosts" : "hub.docker.com"
-    },
-    {
-      "action" : "allow",
-      "creationDate" : 1604502167.3259029,
-      "modificationDate" : 1604502167.3259029,
-      "owner" : "me",
-      "ports" : "443",
-      "process" : "\/Applications\/Docker.app\/Contents\/MacOS\/com.docker.backend",
       "protocol" : "tcp",
       "remote-hosts" : "hub.docker.com"
     }
