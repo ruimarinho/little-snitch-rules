@@ -66,5 +66,5 @@
       "protocol" : "tcp",
       "remote-hosts" : "atom.io"
     }
-  ]
+  }
 }
